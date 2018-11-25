@@ -1,28 +1,37 @@
-STAR Stories
+STAR Stories Cheatsheet
 
---- Startup (Contech Lab)
+--- Contech Lab ---
+
+General Background
+- with friends and 3rd party share holder (RFID company with various mobile projects)
+- work on R&D of BLE (2013 when bluetooth 4.0 application is emerging, Apple iBeacon)
+- work on mobile projects as well
+
+> Indoor position system [Think big]
+
+> Haidilao indoor POC [Earn trust, deliver results]
+
+> Kakamega child book app -> platform for content creator [Think big]
+
+> Science Park green path - proximity system [Biased for action]
+
+> Beacon Fish - proximity shopping experience
+
+--- Accedo ---
 
 General Background
 
-Haidilao indoor POC (Earn trust)
+> Internal SDK
 
-Kakamega child book app -> platform for content creator (Think big)
+> Watch history feature - animation [customer obsession]
 
-Science Park green path - proximity system
+> App crash due to server response not align with doc [backbone]
 
-Beacon Fish - proximity shopping experience
+> Blog for Swift knowledge sharing [develop the best, learn + curious]
 
---- Accedo
+> Swift migration experience [learn + curious, ]
 
-General Background
-
-Internal SDK
-
-Watch history feature - animation (customer obsession)
-
-Swift migration experience
-
---- Sphero
+--- Sphero ---
 
 General Background
 - Sphero is a US based, smart toy company, in Boulder, Colorado
@@ -42,29 +51,36 @@ General Background
 
 > Tencent Project
 
-> Testing Data
+> Testing Data - [learn + curious]
 
 S: Logs are syncrhonized with good sync from factory computer, problems are unreliable network and bad configurations
 T: Creating database and query app for internal testing data
 A: learnt node.js, mongo db, set up cron job and write scripts for process data, before I can start to work on the mobile app to query data
 R: a better backend that the US team was able to fetch data and answer questions regarding manufacturing
 
-> Improve TF software
+> Improve TF software - feed back from Jetta [customer obsession]
 
 S: need to fix / maintain TF software
 T
 A
 R
 
-> Build SDK for TF software
+> Improve TF software - fix first refactor later [highest standard, deliver result]
 
-> Automated computer set up
+> Build SDK for TF software [ownership, highest standard]
 
-> Improve testing data reliability
+> Automated computer set up [ownership, invent and simplify]
+
+> Improve testing data reliability [ownership]
+
+> New approach to TF - resuable [ownership, invent and simplify]
 
 > Internal product (SPA) week
 
---- HK01
+--- HK01 ---
+
+General Background
+- 
 
 > general ownership [ownership]
 
@@ -74,7 +90,9 @@ A: refactor existing codebase, added danger.js to check for new dependencies, ta
 also start working on adding unit tests, flow, patch-package instead of forking dependencies
 R: continually improving test coverage and make our lives a little bit easier day by day
 
-> PR review (develop the best, high standard)
+> refactor, automation, unit testing [ownership]
+
+> PR review [develop the best, high standard, earn trust]
 S:
 T:
 A:
@@ -88,15 +106,20 @@ A: try to find solutions and came across patch-package, as a temp solution befor
 R: patch-package works and helps on other dependencies fixing or fine tuning as well
 more:  might want to think about alternatives, or removing the dependencies all together as those are really simple packages and we probably were just lazy and didn’t build our own (might not have need to do so
 
-> web view events for get location permission [backbone, bias for action]
+> geolocation permission [right a lot, backbone, bias for action]
 S: we have wrapper to bridge events from web to app, one of them being get location, app used to prompt for location permission but that need to change as we are going to allow 3rd party web to get location from app
 T: think about proper approach for doing so
 A: suggested to have location permission asked at app start up but go rejected, as UX is not ready for on boarding, alternatively suggest to create new event for getting location permission but after discussion agreed to use the same web view event coz existing implementation of the web will not need to change
 R: it is kind of a tech debt but i did what can be done at the time
 
-> get stream feeds implementation for notification centre [backbone, bias for action, frugality]
+> getstream feeds implementation for notification centre [right a lot, backbone, bias for action, frugality]
 S:
 T:
 A:
 R:
 
+> dependencies check [invent and simplify, frugality]
+
+> tech debts and hacks [deliver results]
+
+> thought experiment - what should leader do [dive deep]
