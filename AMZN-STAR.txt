@@ -5,31 +5,127 @@ STAR Stories Cheatsheet
 General Background
 - with friends and 3rd party share holder (RFID company with various mobile projects)
 - work on R&D of BLE (2013 when bluetooth 4.0 application is emerging, Apple iBeacon)
-- work on mobile projects as well
+    - Beacon Fish shopper experience
+    - POC for carpark in Science Park
+    - Phase 3 project for "exhibition", GPS + iBeacon proximity
+    - HaiDiLao hotpot shop
+- work as contractor for outsourced mobile projects
+    - VCity
+    - Kakamega (story telling app)
 
 > Indoor position system [Think big]
+S: early 2013, BLE / Bluetooth 4.0 Core Spec Addendum 4, low power, low cost chips powered by coin cell battery
+T: brainstorming products for our start-up as a product to sell
+A: bought prototypes off china online store (As cheap as 5 HKD < 1 USD), place in office and use triangluartion alogorithm to do "coarse" indoor GPS
+R: 
+    - RSSI signal strength is not reliable, only good for proximity (very close, near by, far away)
+    - noticably constructive / destructive interferrence, was good learning 
+    - not really good for small space such as office
+    - good learning, low cost (only time spent)
+    - experience for some future projects
 
 > Haidilao indoor POC [Earn trust, deliver results]
+S: 
+    - shareholder's friend working for HaiDiLao, big hot pot franchise in China, using some high-tech stuff
+    - provide tablet for ordering, want to explore possibility for "in-store navigation" so to save workload of staff
+T: 
+    - create POC with shop map and on-site demonstration
+A:
+    - I pointed out it is not good for in-store navigation (experience with our trial in office)
+    - shareholder insisted we try anyway
+    - figure it might be a good way to meet new connectiong so did it anyway
+R:
+    - did a free POC for HaiDiLao and there is no follow-up
+    - learnt that metallic objects like utensil would further interfere with RSSI reading
+    - spent time and travelling expense
 
-> Kakamega child book app -> platform for content creator [Think big]
+> Science Park green path - proximity system [Earn trust, biased for action]
+S: 
+    - did some POC for science park introducting our capability to do "indoor proximity check"
+    - car park POC to "find my car" didn't work out
+    - Science park has a new phase opening up and will host an short-term exhibition "renewable energy"
+    - want to create a "tour guide" app to introduce the exhibited items like design features and what not
+    - asked us to create the app and include proximity checking
+T:
+    - standalone app for green trail
+    - hardware for the beacons to use as identifiers for points of interest
+A:
+    - created the app
+    - used multiple coin cell battery powered in case the beacons run out of power
+    - built back-end API for matching UUID with the POIs
+R:
+    - good that the POIs are far enough away from each other
+    - good enough for the exhibition
+    - apps taken down after exhibition completed
+    - would have used better solution if it is longer term
 
-> Science Park green path - proximity system [Biased for action]
+> Beacon Fish - proximity shopping experience [Earn trust, Think big]
+S: 
+    - create shopper experience using proximity solution
+    - shareholder's friend has a shop in Shanghai, willing to let us film as a POC
+T:
+    - create business solution as product and find potential users
+A:
+    - created (3D printed) housing for beacon fish (same chipset)
+    - created video and demo app for solution package
+    - divide sections of the shop front and know where customers are at
+    - shopper "check-in" as a loyalty program
+R:
+    - not easy to find adoption
+    - big franchises are hard to infiltrate due to lack of connection and track record
+    - small franchies are skeptical about the solution and were not willing to adopt
 
-> Beacon Fish - proximity shopping experience
+> Kakamega child book app -> platform for content creator [Earn trust, Think big]
+S:
+    - client is composer and want to create app for her story
+    - own voice acting and art resources
+T:
+    - create this "musical" app with the resources given
+A:
+    - using cocos-2d-x to create parser for XML file "script"
+    - enabled us to quickly script out the scenes with animation sequence
+    - discussed the possibility of launch the "engine: as an extra product
+R:
+    - created app for the client in short period of time
+    - no further request before we end our little start up
+    - but personally resuability is indeed a good idea
 
---- Accedo ---
+--- Accedo.tv ---
 
 General Background
+- Stockholm based video solution company
+- team in HK mostly deal with projects for tailoring solutions for clients
+- also "core" team for the mobile SDK
+- was in the "core" team
+- offered relocation to Stockholm as "core" team is being relocated
+- had an offer from Sphero so did not take offer
 
 > Internal SDK
+>>>>>>> check what is in the CORE SDK, make sure you can provide details <<<<<<<<<<<<<<<
 
 > Watch history feature - animation [customer obsession]
+S:
+T:
+A:
+R:
 
 > App crash due to server response not align with doc [backbone]
+S:
+T:
+A:
+R:
 
 > Blog for Swift knowledge sharing [develop the best, learn + curious]
+S:
+T:
+A:
+R:
 
 > Swift migration experience [learn + curious, ]
+S:
+T:
+A:
+R:
 
 --- Sphero ---
 
