@@ -1,5 +1,11 @@
 STAR Stories Cheatsheet
 
+Answer this too - why do you want to join Amazon?
+- 
+
+why do you want to relocate to Vancouver?
+- 
+
 --- Contech Lab ---
 
 General Background
@@ -100,28 +106,36 @@ General Background
 - offered relocation to Stockholm as "core" team is being relocated
 - had an offer from Sphero so did not take offer
 
-> Internal SDK
->>>>>>> check what is in the CORE SDK, make sure you can provide details <<<<<<<<<<<<<<<
+> VIA Blocks and VIA App
+- "Blocks" are the core functionality of the TV app solution
+    - basic building blocks like protocols / defintions
+    - core services like account system, authentication
+    - content service for getting from API and parsing response into MOs
+- "App" started as a demo-app that has a baseline UI to demonstrate the functionalities of "Blocks"
+    - fetch and display demo contents, TV program guides
+    - searching, watch history
+    - account login / facebook login
+    - being used as a starting point for customisation / tailoring according to customer need
 
 > Watch history feature - animation [customer obsession]
-S:
-T:
-A:
-R:
-
-> App crash due to server response not align with doc [backbone]
-S:
-T:
-A:
-R:
+S: first task in Accedo, start by contributing towards VIA-Blocks and VIA-App
+T: implement watch history feature in both projects
+A: discuss with software achitecture and senior to learn, talk to project team about the feature, etc
+R: learnt a lot:
+    - separation of concerns, MVC
+    - patterns like factory, adapter, delegate
+    - refactor for future extensibility
+    - creating animation for fun and for betting UI (possible to turn off, w/ project team)
+    
+> Swift migration experience [learn + curious, biased for action]
+S: Swift 1.0 launched 2014-Sep, looked into the language and think it's great
+T: implementing new feature and decided to incorporate swift (it is bridged to ObjC no problem)
+A: discussed and learn together with senior to decide best practice (tons of workaround like the coming back of struct, no force unwrapping etc)
+R: 
+    - learning swift syntax and using swift in production 
+    - well received and be able to share experience via internal blog 
 
 > Blog for Swift knowledge sharing [develop the best, learn + curious]
-S:
-T:
-A:
-R:
-
-> Swift migration experience [learn + curious, ]
 S:
 T:
 A:
@@ -146,6 +160,10 @@ General Background
 
 
 > Tencent Project
+S:
+T:
+A:
+R:
 
 > Testing Data - [learn + curious]
 
@@ -162,16 +180,40 @@ A
 R
 
 > Improve TF software - fix first refactor later [highest standard, deliver result]
+S:
+T:
+A:
+R:
 
 > Build SDK for TF software [ownership, highest standard]
+S:
+T:
+A:
+R:
 
 > Automated computer set up [ownership, invent and simplify]
+S:
+T:
+A:
+R:
 
 > Improve testing data reliability [ownership]
+S:
+T:
+A:
+R:
 
 > New approach to TF - resuable [ownership, invent and simplify]
+S:
+T:
+A:
+R:
 
 > Internal product (SPA) week
+S:
+T:
+A:
+R:
 
 --- HK01 ---
 
