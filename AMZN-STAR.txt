@@ -1,10 +1,23 @@
 STAR Stories Cheatsheet
 
 Answer this too - why do you want to join Amazon?
-- 
+- a lot of great talents in Amazon that i can learn from
+- a lot of different tech projects that i could work on
+- generally a very exciting opporutnity
+- relocation opportunity i have been looking for
 
 why do you want to relocate to Vancouver?
-- 
+- political issues here in hong kong
+    - getting more and more like China unfortunately
+- government is disappointing, policies are for the wealthy / china government instead of people
+    - housing, medical, transportation 
+    - landfill project, railway project, transferring wealth to China government
+    - singapore counter example, not exactly democratic but at least it's beneficial to the residents
+- heard good things about canada
+- feels more livable than the US, and certianly more than HK
+- legalising marijuana
+- snowy mountains - snowboarding
+
 
 --- Contech Lab ---
 
@@ -20,9 +33,13 @@ General Background
     - Kakamega (story telling app)
 
 > Indoor position system [Think big]
-S: early 2013, BLE / Bluetooth 4.0 Core Spec Addendum 4, low power, low cost chips powered by coin cell battery
-T: brainstorming products for our start-up as a product to sell
-A: bought prototypes off china online store (As cheap as 5 HKD < 1 USD), place in office and use triangluartion alogorithm to do "coarse" indoor GPS
+S: 
+    - early 2013, BLE / Bluetooth 4.0 Core Spec Addendum 4, low power, low cost chips powered by coin cell battery
+T: 
+    - brainstorming products for our start-up as a product to sell
+A: 
+    - bought prototypes off china online store (As cheap as 5 HKD < 1 USD)
+    - place in office and use triangluartion alogorithm to do "coarse" indoor GPS
 R: 
     - RSSI signal strength is not reliable, only good for proximity (very close, near by, far away)
     - noticably constructive / destructive interferrence, was good learning 
@@ -43,7 +60,7 @@ A:
 R:
     - did a free POC for HaiDiLao and there is no follow-up
     - learnt that metallic objects like utensil would further interfere with RSSI reading
-    - spent time and travelling expense
+
 
 > Science Park green path - proximity system [Earn trust, biased for action]
 S: 
@@ -91,6 +108,7 @@ A:
     - using cocos-2d-x to create parser for XML file "script"
     - enabled us to quickly script out the scenes with animation sequence
     - discussed the possibility of launch the "engine: as an extra product
+    - different artist could contribute to the platform
 R:
     - created app for the client in short period of time
     - no further request before we end our little start up
@@ -118,9 +136,12 @@ General Background
     - being used as a starting point for customisation / tailoring according to customer need
 
 > Watch history feature - animation [customer obsession]
-S: first task in Accedo, start by contributing towards VIA-Blocks and VIA-App
-T: implement watch history feature in both projects
-A: discuss with software achitecture and senior to learn, talk to project team about the feature, etc
+S: 
+    - first task in Accedo, start by contributing towards VIA-Blocks and VIA-App
+T: 
+    - implement watch history feature in both projects
+A: 
+    - discuss with software achitecture and senior to learn, talk to project team about the feature, etc
 R: learnt a lot:
     - separation of concerns, MVC
     - patterns like factory, adapter, delegate
@@ -128,18 +149,28 @@ R: learnt a lot:
     - creating animation for fun and for betting UI (possible to turn off, w/ project team)
     
 > Swift migration experience [learn + curious, biased for action]
-S: Swift 1.0 launched 2014-Sep, looked into the language and think it's great
-T: implementing new feature and decided to incorporate swift (it is bridged to ObjC no problem)
-A: discussed and learn together with senior to decide best practice (tons of workaround like the coming back of struct, no force unwrapping etc)
+S: - Swift 1.0 launched 2014-Sep, looked into the language and think it's great
+T: - implementing new feature and decided to incorporate swift (it is bridged to ObjC no problem)
+A: - discussed and learn together with senior to decide best practice (tons of workaround like the coming back of struct, no force unwrapping etc)
 R: 
     - learning swift syntax and using swift in production 
     - well received and be able to share experience via internal blog 
 
 > Blog for Swift knowledge sharing [develop the best, learn + curious]
-S:
-T:
-A:
+S: 
+    - Cesar and I were learning and using Swift in our codebase together, thought it'd be good to share with other colleague
+T: 
+    - Internal blog in Confluence space as a channel for knowledge sharing
+A: 
+    - Took turn to create blog posts, introducing Swift as an ultimate goal that we should work towards
+    - I wrote a good amount of "This week in swift"
+    - compilation of Swift related news that caught our attention
+    - sometimes there will be best practice / tricks sharing
+    - sample project that is a baseline playground for others to test spin
 R:
+    - not entirely my own credit but Cesar has taught me a very important point
+    - while you are teaching / trying to teach others that you could reinforce your own knowledge
+    - not about just developing others, but also helping yourself
 
 --- Sphero ---
 
@@ -147,7 +178,8 @@ General Background
 - Sphero is a US based, smart toy company, in Boulder, Colorado
 - Some well-known products - BB8, R2-D2, Lightning McQueen
 - Some less well-known ones are Sphero, Ollie, SPRK
-- Most products were manufactured in China, a factory in GuangDong called Jetta
+- Smart toys robots, app-enabled
+- Products were manufactured in China, a factory in GuangDong called Jetta
 - Hong Kong team was initially set up to support manufacturing
 - Later the team also do product prototyping and sourcing for new manufacturers
 - I was the only software engineer in Hong Kong
@@ -155,109 +187,168 @@ General Background
 - Then work on maintaining the Test Fixture Softwares
 - And also help with any other tasks that involve softwares 
     - app for controlling prototypes
-    - build databases and query API
-    - fixing printers and coffee machines (kidding)
+    - build databases and query API for testing dat
 
 
-> Tencent Project
-S:
-T:
+> Tencent Project - [Dive deep]
+S: 
+    - First joined Sphero, Tencent has a collaboration project with Sphero
+    - Build a own version of their Sphero, create a game that includes many of the exist Sphero apps
+T: 
+    - Coordinate between Boulder office and Tencent SZ team, expensive to fly engineers from Boulder to China
+    - Boulder team was busy with launch BB-8
 A:
+    - Looking into the existing apps (unity / native) myself and answering questions that I could answered
 R:
+    - Successfully concluded the collaboration with limited resources
 
 > Testing Data - [learn + curious]
+S: 
+    - TF softwares outputting test logs in the form of csv to specific directory
+    - are syncrhonized with dropbox directory using good-sync
+    - names for computer as directory name
+    - a lot of unprocessed data
+T: 
+    - create query app for internal testing data
+A: 
+    - began with classifying the data - Firmware upload, PCBA test, Gyro test, FinalBLE, matching station type w/ keyword
+    - different keywords identifying the origin of the log and the type - pretty messy but managed to do so
+    - script to process the data and parse into DB record
+    - broken data due to SW bugs, NoSQL becomes an obvious choice there
+    - learnt MongoDB + node.js to write the parser
+    - local testing with a few hundreds of files, then set up cron job to process daily, "new" data on DigitalOcean instance
+    - trade off between time and space, set up specific indexes for the DB collections to facilitate query and wrtie op
+    - quickly mash up some API using express.js
+    - create a MVP App that queries my APIs and display daily / weekly testing data by station type / specific station
+    - also supports querying a specific MAC address of the product
+    - know when this product was loaded, tested and ready for shipping, any abnormal in case of return
+R: 
+    - As retrospective, not a lot of users for the app, and GM was not providing feedback on the purpose of the App
+    - I pointed out that we are getting A LOT less data than we should -> found out connectin problem / configuration error
+    - seeing the broken record helps me fix bug in TF SW later
+    - iterating on the API and supporting US team to fetch data and answer questions from Customer Support
+    - a better backend that the US team was able to fetch data and answer questions regarding manufacturing
 
-S: Logs are syncrhonized with good sync from factory computer, problems are unreliable network and bad configurations
-T: Creating database and query app for internal testing data
-A: learnt node.js, mongo db, set up cron job and write scripts for process data, before I can start to work on the mobile app to query data
-R: a better backend that the US team was able to fetch data and answer questions regarding manufacturing
-
-> Improve TF software - feed back from Jetta [customer obsession]
-
-S: need to fix / maintain TF software
-T
-A
-R
-
-> Improve TF software - fix first refactor later [highest standard, deliver result]
-S:
-T:
-A:
+> Improve TF software - fix first refactor later [deliver result]
+S: 
+- TF software was being reused and out of maintainance for a while
+- and Nordic chipset has updated (for some reason Sphero decide to use bleeding edge chips without extensive testing)
+T: - "fix it" from GM, as they are unreliable for production
+A: 
+- spent a week sitting together with the FW engineer (who was also responsible for writing the PCBA test)
+- find out bug but we are under deadline stress
+- make it work
 R:
+    - hacks and workaround, not pretty but it worked
+    - i did go back and refactor, and extract common functionalities to helpers, try to get them to reuse
+    - single source to fix, instead of 5 different products
+    - extracted common functionality as SDK [ownership, highest standard]
 
-> Build SDK for TF software [ownership, highest standard]
-S:
+> TF softwares and helpers - feed back from Jetta [customer obsession]
+S: 
+    - absorbed into TF team and tasked with maintaining the TF
+    - chance of learning building with C# so that's ok
 T:
+    - maintain the TF softwares and improve yield
 A:
+    - talk to the Jetta line managers to gather feedback
+    - focused on low-hanging fruits first (stability first, then speed)
+    - built helpers for them to easily and reliablity configuring the stations (scripts executor instead of them typing commands and run scripts)
 R:
+    - i guess they appreciated it, i hope
+    - more and more reliable TF softwares
+
 
 > Automated computer set up [ownership, invent and simplify]
 S:
+    - trying to improve test log reliability by utilising central NAS on site
+    - configure the computr to connect to SSID to reach the router / NAS
+    - new requirement from GM from time to time, for example an indication of network lost
 T:
+    - set up computer with software and support future maintainability
 A:
+    - build a updater and a set up installer to configure the computers
+    - only need to install once on new computer, then will fetch updated installer and run upon computer start up
+    - pings an endpoint for indication that the computer is "online"
 R:
+    - works and the Jetta IT thanks us for reducing their workload
 
-> Improve testing data reliability [ownership]
+> Internal product (SPA) week [learn and be curious]
 S:
+    - Sphero runs Project Accelerator to encourage employee to raise new ideas
 T:
+    - support HK team product prototyping
 A:
+    - app for BB-8 with camera head and driving mode with gyro scope
+    - app for mini game using a prototype controller
 R:
-
-> New approach to TF - resuable [ownership, invent and simplify]
-S:
-T:
-A:
-R:
-
-> Internal product (SPA) week
-S:
-T:
-A:
-R:
+    - good for me to pick up on Apps project again
 
 --- HK01 ---
 
 General Background
-- 
+- internet company running news content
+- app, web and backend
+- also trying to include other service like wallet, food ordering service
 
-> general ownership [ownership]
+> general app ownership [ownership, invent and simplify, frugality]
+S: 
+    - hk01 mobile app, different teams working on it
+    - react native with a ton of dependencies, and many forked version of dependencies which leads to messy codebase
+T: 
+    - as core team, we are to work on features that is not specific team’s task
+    - or other teams will hook up to use, for example, notification centre, deferred deep link
+A: 
+    - refactor existing codebase, added danger.js to check for new dependencies,
+    - talk to teams that want to add that and understand why they want to do so, and if there are alternatives
+    - also start working on adding unit tests, flow, patch-package instead of forking dependencies
+R: 
+    - continually improving test coverage and make our lives a little bit easier day by day
 
-S: hk01 mobile app, different teams working on it, react native with a ton of dependencies, and many forked version of dependencies which leads to messy codebase
-T: as core team, we are to work on features that is not specific team’s task, or other teams will hook up to use, for example, notification centre, deferred deep link
-A: refactor existing codebase, added danger.js to check for new dependencies, talk to teams that want to add that and understand why they want to do so, and if there are alternatives
-also start working on adding unit tests, flow, patch-package instead of forking dependencies
-R: continually improving test coverage and make our lives a little bit easier day by day
-
-> refactor, automation, unit testing [ownership]
-
-> PR review [develop the best, high standard, earn trust]
-S:
-T:
+> PR review / peer review [develop the best, high standard, earn trust]
+S / T:
+    - review PR from own team and other teams
+    - peer review to give feedback to teammate
 A:
+    - respectfully give feedback and encourage improvement (code and work)
 R:
+    - hopefully can improve as a team
 
 > upgrade RN blocker - multiple solution [bias for action, frugality]
-
-S: upgrading RN, find stale dependencies that are no longer maintained and blocks RN upgrade
-T: either we keep a own copy, or write our own dependencies, or fork and keep a copy
-A: try to find solutions and came across patch-package, as a temp solution before ticketing team has time to handle those dependencies
-R: patch-package works and helps on other dependencies fixing or fine tuning as well
-more:  might want to think about alternatives, or removing the dependencies all together as those are really simple packages and we probably were just lazy and didn’t build our own (might not have need to do so
+S: 
+    - upgrading RN, find stale dependencies that are no longer maintained and blocks RN upgrade
+T: 
+    - either we keep a own copy, or write our own dependencies, or fork and keep a copy
+A: 
+    - try to find solutions and came across patch-package, as a temp solution before ticketing team has time to handle those dependencies
+R: 
+    - patch-package works and helps on other dependencies fixing or fine tuning as well
+more:  
+    - might want to think about alternatives, or removing the dependencies all together as those are really simple packages and we probably were just lazy and didn’t build our own (might not have need to do so
 
 > geolocation permission [right a lot, backbone, bias for action]
-S: we have wrapper to bridge events from web to app, one of them being get location, app used to prompt for location permission but that need to change as we are going to allow 3rd party web to get location from app
-T: think about proper approach for doing so
-A: suggested to have location permission asked at app start up but go rejected, as UX is not ready for on boarding, alternatively suggest to create new event for getting location permission but after discussion agreed to use the same web view event coz existing implementation of the web will not need to change
-R: it is kind of a tech debt but i did what can be done at the time
+S: 
+    - we have wrapper to bridge events from web to app, one of them being get location, app used to prompt for location permission but that need to change as we are going to allow 3rd party web to get location from app
+T: 
+    - think / discuss about proper approach for doing so
+A: 
+    - suggested to have location permission asked at app start up but go rejected, as UX is not ready for on boarding
+    - alternatively suggest to create new event for getting location permission 
+    - but after discussion agreed to use the same web view event coz existing implementation of the web will not need to change
+R: 
+    - it is kind of a tech debt, and there is certainly better appraoch, but i did what can be done at the time
 
 > getstream feeds implementation for notification centre [right a lot, backbone, bias for action, frugality]
 S:
+    -
 T:
+    -
 A:
+    -
 R:
-
-> dependencies check [invent and simplify, frugality]
-
-> tech debts and hacks [deliver results]
+    -
 
 > thought experiment - what should leader do [dive deep]
+- talk to teammates to understand them as a person, know their aspiration and carreer goals, any opinons and complains
+- maintain an open attitude and encourage to talk about problems and how I can help to improve, or the team can learn
+- observe and find strength and weakness and help them to improve
